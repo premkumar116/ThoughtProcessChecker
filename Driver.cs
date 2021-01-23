@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace SampleApp
 {
-    class Driver
+    public class Driver
     {
+        public string DriverName { get; set; }
+        public List<string> Trips { get; set; }
     }
 }
