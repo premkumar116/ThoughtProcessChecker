@@ -9,6 +9,6 @@ namespace SampleApp
     public class Driver
     {
         public string DriverName { get; set; }
-        public List<string> Trips { get; set; }
+        public List<Trip> Trips { get; set; }
     }
 }
